@@ -1,0 +1,82 @@
+@import url(reset.css);
+@font-face {
+	src: url(../font/SuisseIntl-Bold.otf);
+	font-family:'SuisseIntl-Bold';
+	font-size: 24px;
+}
+
+@font-face {
+	src: url(../font/SuisseIntl-BoldItalic.otf);
+	font-family:'SuisseIntl-BoldItalic';
+}	
+
+@font-face {
+	src: url(../font/SuisseIntl-Book.otf);
+	font-family:'SuisseIntl-Book';
+}	
+
+@font-face {
+	src: url(../font/SuisseIntl-BookItalic.otf);
+	font-family:'SuisseIntl-BookItalic';
+}	
+
+@font-face {
+	src: url(../font/SuisseIntl-Regular.otf);
+	font-family:'SuisseIntl-Regular';
+}	
+
+@font-face {
+	src: url(../font/SuisseIntl-RegularItalic.otf);
+	font-family:'SuisseIntl-RegularItalic';
+}	
+
+
+@font-face {
+	src: url(../font/SuisseIntl-SemiBold.otf);
+	font-family:'SuisseIntl-SemiBold';
+}	
+
+@font-face {
+	src: url(../font/SuisseIntl-SemiBoldItalic.otf);
+	font-family:'SuisseIntl-SemiBoldItalic';
+}	
+
+
+@font-face {
+	src: url(../font/SuisseIntl-Ultralight.otf);
+	font-family:'SuisseIntl-Ultralight';
+}	
+
+
+@font-face {
+	src: url(../font/SuisseIntl-UltralightItalic.otf);
+	font-family:'SuisseIntl-UltralightItalic';
+}	
+
+@font-face {
+	src: url(../font/IBMPlexMono-Regular.ttf);
+	font-family:'IBM'
+}
+
+@font-face {
+	src: url(../font/IBMPlexMono-Medium.ttf);
+	font-family: 'IBMMedium'
+}
+
+@font-face {
+	src: url(../font/IBMPlexMono-SemiBold.ttf);
+	font-family: 'IBMSemiBold'
+}
+
+@font-face {
+	src: url(../font/IBMPlexMono-SemiBoldItalic.ttf);
+	font-family: 'IBMSemiBoldItalic'
+}
+@font-face	{
+	src: url(../font/IBMPlexMono-Bold.ttf);
+	font-family: 'IBMBold'
+}
+@font-face {
+	src: url(../font/PermanentMarker-Regular.ttf);
+	font-family: Marker;
+}

@@ -1,27 +1,0 @@
-a:5:{s:5:"title";s:32:"Меня бесит аутлук";s:16:"text-format-info";a:2:{s:10:"text-final";s:3455:"<p>Так уж получилось, что раз в три месяца мне нужно отправлять письмо, пользуясь аутлуком. И я каждый раз внимательно вглядываюсь в интерфейс, чтобы понять куда тут нажимать. Попыталась разобраться можно ли сделать этот интерфейс проще.</p>
-<div class="e2-text-picture">
-<div style="width: 1227px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 65.28%"><img src="https://marsprivet.ru/blog/pictures/original.png" width="1227" height="801" alt="" />
-</div></div></div>
-<p>Кнопка «отправить» неочевидна. Мозг уже натренирован, что cta заточено под правшей, поэтому я ожидаю увидеть кнопку справа или cнизу, как у других почтовых клиентов</p>
-<div class="e2-text-picture">
-<div style="width: 1455px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 35.12%"><img src="https://marsprivet.ru/blog/pictures/Other.jpg" width="1455" height="511" alt="" />
-</div></div></div>
-<p>Передвинула кнопку на очевидное и более подходящее место — справа и покрасила</p>
-<div class="e2-text-picture">
-<div style="width: 1227px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 65.28%"><img src="https://marsprivet.ru/blog/pictures/3Pokrasili.jpg" width="1227" height="801" alt="" />
-</div></div></div>
-<p>Из-за этого узел из линий немного развязался</p>
-<div class="e2-text-picture">
-<div style="width: 547px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 42.78%"><img src="https://marsprivet.ru/blog/pictures/stalo.jpg" width="547" height="234" alt="" />
-</div></div></div>
-<p>А было так</p>
-<div class="e2-text-picture">
-<div style="width: 547px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 42.78%"><img src="https://marsprivet.ru/blog/pictures/bylo.jpg" width="547" height="234" alt="" />
-</div></div></div>
-<p>Инпуты и кнопки «Кому» и «Копия» различаются по высоте всего на два пикселя — это бесит. Вот что бывает, когда собираешь интерфейс из готовых компонентов и не думаешь.</p>
-<p>Разбиваю инпуты и кнопки. Теперь инпуты просто подписаны, а функции кнопок машина пусть выполняет в выпадашках. Убираю многоточия  из «кому» и «копия» — это теперь не кнопка, а текстовый лейбл.</p>
-<div class="e2-text-picture">
-<div style="width: 1237px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 64.75%"><img src="https://marsprivet.ru/blog/pictures/4-Input1.jpg" width="1237" height="801" alt="" />
-</div></div></div>
-<p>Получилось, не идеально, но если бы было так, я бы меньше путалась при попытке отправить письмо</p>
-";s:4:"meta";a:2:{s:14:"links-required";a:0:{}s:18:"resources-detected";a:6:{i:0;s:12:"original.png";i:1;s:9:"Other.jpg";i:2;s:14:"3Pokrasili.jpg";i:3;s:9:"stalo.jpg";i:4;s:8:"bylo.jpg";i:5;s:12:"4-Input1.jpg";}}}s:7:"summary";s:315:"Так уж получилось, что раз в три месяца мне нужно отправлять письмо, пользуясь аутлуком. И я каждый раз внимательно вглядываюсь в интерфейс, чтобы понять куда тут нажимать";s:14:"comments-count";i:0;s:9:"tags-data";a:2:{s:5:"ctree";a:2:{i:0;a:3:{s:8:"visible?";b:1;s:4:"name";s:23:"💻 интерфейс";s:4:"href";s:42:"https://marsprivet.ru/blog/tags/interfeys/";}i:1;a:3:{s:8:"visible?";b:1;s:4:"name";s:21:"🗒️заметки";s:4:"href";s:40:"https://marsprivet.ru/blog/tags/zametki/";}}s:20:"all-resnames-uploads";a:0:{}}}

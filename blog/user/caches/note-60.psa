@@ -1,6 +1,0 @@
-a:5:{s:5:"title";s:33:"Why Error messages isn’t secure";s:16:"text-format-info";a:2:{s:10:"text-final";s:772:"<p>Error message is a way of informing the user of important changes in a prominent way.</p>
-<p>When we design interfaces, we rarely think about error messages. After all, we are remembering about it. We highlight the error, display a message, and nudge users toward the correct input.</p>
-<p><b>For user: </b>clear error message is good<br />
-<b>For business</b> error messages can make or break the experience in situations when things go south, especially if they struggle with high abandonment.  A good error message reduces the burden on technical support and staff. A good error message allows you to maintain trust in the service in a difficult moment</p>
-<p><b>But, to security clear message about error is potential for hacking.</b></p>
-";s:4:"meta";a:2:{s:14:"links-required";a:0:{}s:18:"resources-detected";a:0:{}}}s:7:"summary";s:90:"Error message is a way of informing the user of important changes in a prominent way";s:14:"comments-count";b:0;s:9:"tags-data";a:2:{s:5:"ctree";a:0:{}s:20:"all-resnames-uploads";a:0:{}}}

@@ -1,7 +1,0 @@
-<FilesMatch ^.*$>
-Deny from all
-</FilesMatch>
-
-<FilesMatch ^.*\.(jpe?g|png|js|css)$>
-Allow from all
-</FilesMatch>

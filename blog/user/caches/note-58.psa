@@ -1,0 +1,44 @@
+a:5:{s:5:"title";s:35:"Генерация аватарок";s:16:"text-format-info";a:2:{s:10:"text-final";s:4833:"<p>Мы хотим ввести на платформе одну из стандартных продуктовых фич — аватарки. Так сложилось, что до сих пор не было. Договорились, что для тестирования идеи будем рандомно присваивать аватарку пользователю — как у гугл документов. Ручной смены аватарки пока не будет, юзер будет ходить с тем, что ему нагенерирует машина.</p>
+<p>Генерация реализована так — берется рандомный цвет из палитры, рандомная иконка из набора и соединяется. Для теста этой идеи я беру <a href="https://fonts.google.com/noto/specimen/Noto+Emoji/glyphs">опенсорсный набор эмоджи Noto Emoji</a> и фирменные цвета проекта.</p>
+<h2>Цвета</h2>
+<p>Из фирменных цветов делаю цветовую растяжку от самого бледного оттенка к самому темному.</p>
+<div class="e2-text-picture">
+<div style="width: 1512px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 65.01%"><img src="https://marsprivet.com/blog/pictures/MacBook-Pro-14_---1.svg" width="1512" height="983" alt="" />
+</div></div></div>
+<p>Прикидываю на макете какие цвета будут смотреться тухло, а какие хорошо. Слишком темные цвета не беру — будут сливаться с фоном хедера. Слишком бледные не подходят по стилистике.</p>
+<div class="e2-text-picture">
+<div style="width: 1512px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 64.95%"><img src="https://marsprivet.com/blog/pictures/MacBook-Pro-14_---2.svg" width="1512" height="982" alt="" />
+</div></div></div>
+<p>Оставшиеся цвета собираю в палитру и прописываю хексы для разработчика.</p>
+<h2>Иконки</h2>
+<p>Ищу оптимальные размер аватарки для хедера и форму иконок, смотрю цвет иконки в сочетании с фоном. Чтобы сделать форму аватарки четче — делаю обводку.</p>
+<div class="e2-text-picture">
+<div style="width: 1512px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 36.57%"><img src="https://marsprivet.com/blog/pictures/MacBook-Pro-14_---3.svg" width="1512" height="553" alt="" />
+</div></div></div>
+<p>Пробую прикинуть как будет жить иконка с постоянным цветом на разных фонах.</p>
+<div class="e2-text-picture">
+<div style="width: 1512px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 36.57%"><img src="https://marsprivet.com/blog/pictures/MacBook-Pro-14_---7.svg" width="1512" height="553" alt="" />
+</div></div></div>
+<p>Выглядит неестественно, тогда решаю красить иконки цветом фона на 2 тона темнее. Заранее определяю эти оттенки</p>
+<div class="e2-text-picture">
+<div style="width: 1512px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 58%"><img src="https://marsprivet.com/blog/pictures/MacBook-Pro-14_---6.svg" width="1512" height="877" alt="" />
+</div></div></div>
+<h2>Набор окончательных иконок для аватарки.</h2>
+<div class="e2-text-picture">
+<div style="width: 1356px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 50.29%"><img src="https://marsprivet.com/blog/pictures/Avatar_random-image.svg" width="1356" height="682" alt="" />
+</div></div></div>
+<h2>Итог</h2>
+<p>1) Берем готовый набор иконок<br />
+2) Набор background-color,<br />
+3) Набор icon-color, который задан к каждому фону<br />
+4) Генерируем аватарку</p>
+<h2>Примеры</h2>
+<div class="e2-text-picture">
+<div class="fotorama" data-width="" data-ratio="0">
+<img src="https://marsprivet.com/blog/pictures/Empty-1.svg" width="" height="" alt="" />
+<img src="https://marsprivet.com/blog/pictures/Empty-2.svg" width="" height="" alt="" />
+<img src="https://marsprivet.com/blog/pictures/Empty-3.svg" width="" height="" alt="" />
+<img src="https://marsprivet.com/blog/pictures/Empty.svg" width="" height="" alt="" />
+</div>
+</div>
+";s:4:"meta";a:2:{s:14:"links-required";a:3:{i:0;s:31:"system/library/jquery/jquery.js";i:1;s:36:"system/library/fotorama/fotorama.css";i:2;s:35:"system/library/fotorama/fotorama.js";}s:18:"resources-detected";a:10:{i:0;s:23:"MacBook-Pro-14_---1.svg";i:1;s:23:"MacBook-Pro-14_---2.svg";i:2;s:23:"MacBook-Pro-14_---3.svg";i:3;s:23:"MacBook-Pro-14_---7.svg";i:4;s:23:"MacBook-Pro-14_---6.svg";i:5;s:23:"Avatar_random-image.svg";i:6;s:11:"Empty-1.svg";i:7;s:11:"Empty-2.svg";i:8;s:11:"Empty-3.svg";i:9;s:9:"Empty.svg";}}}s:7:"summary";s:213:"Мы хотим ввести на платформе одну из стандартных продуктовых фич — аватарки. Так сложилось, что до сих пор не было";s:14:"comments-count";i:0;s:9:"tags-data";a:2:{s:5:"ctree";a:4:{i:0;a:3:{s:8:"visible?";b:1;s:4:"name";s:17:"platform for fuzz";s:4:"href";s:51:"https://marsprivet.com/blog/tags/platform-for-fuzz/";}i:1;a:3:{s:8:"visible?";b:1;s:4:"name";s:12:"работа";s:4:"href";s:40:"https://marsprivet.com/blog/tags/rabota/";}i:2;a:3:{s:8:"visible?";b:1;s:4:"name";s:23:"💻 интерфейс";s:4:"href";s:43:"https://marsprivet.com/blog/tags/interfeys/";}i:3;a:3:{s:8:"visible?";b:1;s:4:"name";s:35:"🧨прикольная штука";s:4:"href";s:51:"https://marsprivet.com/blog/tags/prikolnaya-shtuka/";}}s:20:"all-resnames-uploads";a:0:{}}}

@@ -1,0 +1,172 @@
+V 0.00239    Installer: force directories
+V 0.00292    Installer: write password hash
+V 0.00411    Storing encrypted password
+V 0.00446    DB [1]: SET NAMES utf8mb4
+V 0.00476    Installer: data exists and migrateable
+V 0.00479    Installer: no need to create tables, will migrate
+V 0.00483    Will run some query
+V 0.00486    DB [2]: SET sql_quote_show_create=1
+V 0.00502    Ensure encoding utf8mb4 on all tables {
+V 0.00506      Migrate: Check table Actions
+V 0.00509      Will run some query
+V 0.00512      DB [3]: SHOW TABLE STATUS LIKE 'e2BlogActions'
+V 0.00544      Migrate: Check table Aliases
+V 0.00548      Will run some query
+V 0.00551      DB [4]: SHOW TABLE STATUS LIKE 'e2BlogAliases'
+V 0.00585      Migrate: Check table Comments
+V 0.00588      Will run some query
+V 0.0059       DB [5]: SHOW TABLE STATUS LIKE 'e2BlogComments'
+V 0.00609      Migrate: Check table GIPsSessions
+V 0.00612      Will run some query
+V 0.00615      DB [6]: SHOW TABLE STATUS LIKE 'e2BlogGIPsSessions'
+V 0.00658      Migrate: Check table Keywords
+V 0.00662      Will run some query
+V 0.00664      DB [7]: SHOW TABLE STATUS LIKE 'e2BlogKeywords'
+V 0.007        Migrate: Check table Notes
+V 0.00703      Will run some query
+V 0.00706      DB [8]: SHOW TABLE STATUS LIKE 'e2BlogNotes'
+V 0.00725      Migrate: Check table NotesKeywords
+V 0.00728      Will run some query
+V 0.0073       DB [9]: SHOW TABLE STATUS LIKE 'e2BlogNotesKeywords'
+V 0.00761      Migrate: Check table Sources
+V 0.00764      Will run some query
+V 0.00767      DB [10]: SHOW TABLE STATUS LIKE 'e2BlogSources'
+V 0.00801      Migrate: Check table RoseContents
+V 0.00804      Will run some query
+V 0.00806      DB [11]: SHOW TABLE STATUS LIKE 'e2BlogRoseContents'
+V 0.00839      Migrate: Check table RoseWord
+V 0.00841      Will run some query
+V 0.00844      DB [12]: SHOW TABLE STATUS LIKE 'e2BlogRoseWord'
+V 0.00883      Migrate: Check table RoseFulltext
+V 0.00886      Will run some query
+V 0.00889      DB [13]: SHOW TABLE STATUS LIKE 'e2BlogRoseFulltext'
+V 0.00921      Migrate: Check table RoseKeyword
+V 0.00925      Will run some query
+V 0.00928      DB [14]: SHOW TABLE STATUS LIKE 'e2BlogRoseKeyword'
+V 0.00962      Migrate: Check table RoseKeywordMultiple
+V 0.00965      Will run some query
+V 0.00968      DB [15]: SHOW TABLE STATUS LIKE 'e2BlogRoseKeywordMultiple'
+V 0.00999    }
+V 0.01002    Get existing table information {
+V 0.01005      Will run some query
+V 0.01007      DB [16]: SHOW TABLES LIKE 'e2BlogActions'
+V 0.01019      Will run some query
+V 0.01022      DB [17]: SHOW CREATE TABLE `e2BlogActions`
+V 0.01032      Will run some query
+V 0.01035      DB [18]: SHOW INDEX FROM `e2BlogActions`
+V 0.0105       Will run some query
+V 0.01052      DB [19]: UPDATE `e2BlogActions` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+V 0.01067      Will run some query
+V 0.01072      DB [20]: SHOW TABLES LIKE 'e2BlogAliases'
+V 0.01084      Will run some query
+V 0.01088      DB [21]: SHOW CREATE TABLE `e2BlogAliases`
+V 0.01095      Will run some query
+V 0.01098      DB [22]: SHOW INDEX FROM `e2BlogAliases`
+V 0.0111       Will run some query
+V 0.01114      DB [23]: UPDATE `e2BlogAliases` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+V 0.01126      Will run some query
+V 0.01128      DB [24]: SHOW TABLES LIKE 'e2BlogComments'
+V 0.01139      Will run some query
+V 0.01142      DB [25]: SHOW CREATE TABLE `e2BlogComments`
+V 0.01151      Will run some query
+V 0.01154      DB [26]: SHOW INDEX FROM `e2BlogComments`
+V 0.01167      Will run some query
+V 0.0117       DB [27]: UPDATE `e2BlogComments` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+V 0.01182      Will run some query
+V 0.01185      DB [28]: SHOW TABLES LIKE 'e2BlogGIPsSessions'
+V 0.01195      Will run some query
+V 0.01198      DB [29]: SHOW CREATE TABLE `e2BlogGIPsSessions`
+V 0.01204      Will run some query
+V 0.01207      DB [30]: SHOW INDEX FROM `e2BlogGIPsSessions`
+V 0.01218      Will run some query
+V 0.0122       DB [31]: UPDATE `e2BlogGIPsSessions` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+V 0.01232      Will run some query
+V 0.01235      DB [32]: SHOW TABLES LIKE 'e2BlogKeywords'
+V 0.01246      Will run some query
+V 0.0125       DB [33]: SHOW CREATE TABLE `e2BlogKeywords`
+V 0.01259      Will run some query
+V 0.01262      DB [34]: SHOW INDEX FROM `e2BlogKeywords`
+V 0.01275      Will run some query
+V 0.01278      DB [35]: UPDATE `e2BlogKeywords` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+V 0.01292      Will run some query
+V 0.01295      DB [36]: SHOW TABLES LIKE 'e2BlogNotes'
+V 0.01308      Will run some query
+V 0.01311      DB [37]: SHOW CREATE TABLE `e2BlogNotes`
+V 0.01321      Will run some query
+V 0.01325      DB [38]: SHOW INDEX FROM `e2BlogNotes`
+V 0.01344      Will run some query
+V 0.01347      DB [39]: UPDATE `e2BlogNotes` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+V 0.01361      Will run some query
+V 0.01364      DB [40]: SHOW TABLES LIKE 'e2BlogNotesKeywords'
+V 0.01379      Will run some query
+V 0.01381      DB [41]: SHOW CREATE TABLE `e2BlogNotesKeywords`
+V 0.01388      Will run some query
+V 0.0139       DB [42]: SHOW INDEX FROM `e2BlogNotesKeywords`
+V 0.01401      Will run some query
+V 0.01405      DB [43]: UPDATE `e2BlogNotesKeywords` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+V 0.01417      Will run some query
+V 0.01419      DB [44]: SHOW TABLES LIKE 'e2BlogSources'
+V 0.01429      Will run some query
+V 0.01432      DB [45]: SHOW CREATE TABLE `e2BlogSources`
+V 0.01439      Will run some query
+V 0.01441      DB [46]: SHOW INDEX FROM `e2BlogSources`
+V 0.01452      Will run some query
+V 0.01454      DB [47]: UPDATE `e2BlogSources` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+V 0.01466    }
+V 0.0147     Will run some query
+V 0.01472    DB [48]: UPDATE `e2BlogAliases` SET `EntityType` = 'n' WHERE `EntityType` = ''
+V 0.01484    Will clean up “leaked” tag aliases
+V 0.01487    DB [49]: DELETE FROM `e2BlogAliases` WHERE `ID` IN (SELECT `ID` FROM (SELECT a.`ID` FROM `e2BlogAliases` a LEFT OUTER JOIN `e2BlogKeywords` e ON a.`EntityID` = e.`ID` WHERE a.`EntityType` = 't' AND e.`ID` IS NULL) AS temp)
+V 0.01519    Will run some query
+V 0.01521    DB [50]: UPDATE `e2BlogKeywords` SET `Summary` = '' WHERE `Summary` IS NULL
+V 0.01534    Will run some query
+V 0.01536    DB [51]: UPDATE `e2BlogKeywords` SET `Uploads` = '' WHERE `Uploads` IS NULL
+V 0.01546    Will run some query
+V 0.01548    DB [52]: ALTER TABLE `e2BlogNotes` CHANGE `FormatterID` `FormatterID` VARCHAR( 32 ) DEFAULT 'neasden' NOT NULL
+V 0.01736    Will run some query
+V 0.01739    DB [53]: UPDATE `e2BlogNotes` SET `Summary` = '' WHERE `Summary` IS NULL
+V 0.01757    Will run some query
+V 0.0176     DB [54]: UPDATE `e2BlogNotes` SET `Uploads` = '' WHERE `Uploads` IS NULL
+V 0.01775    Will run some query
+V 0.01779    DB [55]: UPDATE `e2BlogNotes` SET `SourceNoteData` = '' WHERE `SourceNoteData` IS NULL
+V 0.0179     Ensure indexes {
+V 0.01796    }
+V 0.01798    Installer: write settings
+V 0.01807    Caches: Drop all kinds of caches
+V 0.01812    Installer: search index
+V 0.08968    Installer: instantiate
+V 0.08986    Installer: complete
+V 0.09005    Spawn: Curl https://marsprivet.ru/blog/settings/underhood/index/ using get...
+V 0.25132    Spawn: Curl returns: [Array
+(
+    [url] => https://marsprivet.ru/blog/settings/underhood/index/
+    [content_type] => text/html; charset=UTF-8
+    [http_code] => 200
+    [header_size] => 192
+    [request_size] => 123
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.159763
+    [namelookup_time] => 0.12481
+    [connect_time] => 0.124899
+    [pretransfer_time] => 0.133185
+    [size_upload] => 0
+    [size_download] => 91
+    [speed_download] => 572
+    [speed_upload] => 0
+    [download_content_length] => 91
+    [upload_content_length] => -1
+    [starttransfer_time] => 0.159725
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 2a03:6f00:6:1::b972:f5c1
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 2a03:6f00:6:1::b972:f5c1
+    [local_port] => 48910
+)
+] [<pre>No old lock<br />New lock is 1612619165<br /><br />Indexing complete<br /><br /></pre>], (errno=0, errstr=)...

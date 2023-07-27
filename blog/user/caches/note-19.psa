@@ -1,0 +1,12 @@
+a:5:{s:5:"title";s:20:"ZeroNightsX// Икс";s:16:"text-format-info";a:2:{s:10:"text-final";s:1271:"<p>Для проекта нужно было показать, как будет двигаться главный объект — Икс.</p>
+<p>Показала —  ☺ <a href="https://marsprivet.github.io/Offset-Path/">https://marsprivet.github.io/Offset-Path/</a></p>
+<div class="e2-text-video">
+<div class="e2-text-super-wrapper" style="width: 2560px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 56.25%"><iframe width="100%" height="100%" style="position: absolute" src="https://www.youtube.com/embed/uY06U4JKJAc?enablejsapi=1" frameborder="0" allowfullscreen allow="autoplay"> </iframe></div></div>
+</div>
+<div class="e2-text-picture">
+<div style="width: 1840px; max-width: 100%"><div class="e2-text-proportional-wrapper" style="padding-bottom: 51.09%"><img src="https://marsprivet.com/blog/pictures/raycast-untitled.png" width="1840" height="940" alt="" />
+</div></div></div>
+<p><b>Плюсы offset-path: </b> нормальное движение по пути без js<br />
+<b>Минусы:</b> ie, edge, safari не поддерживаются</p>
+<p>Подробнее о том, как это все работает на <a href="https://habr.com/ru/post/509880/">https://habr.com/ru/post/509880/</a></p>
+";s:4:"meta";a:2:{s:14:"links-required";a:2:{i:0;s:31:"system/library/jquery/jquery.js";i:1;s:39:"system/library/media-seek/media-seek.js";}s:18:"resources-detected";a:2:{i:0;s:41:"https://www.youtube.com/embed/uY06U4JKJAc";i:1;s:20:"raycast-untitled.png";}}}s:7:"summary";s:137:"Для проекта нужно было показать, как будет двигаться главный объект — Икс";s:14:"comments-count";i:0;s:9:"tags-data";a:2:{s:5:"ctree";a:3:{i:0;a:3:{s:8:"visible?";b:1;s:4:"name";s:11:"ZeroNightsX";s:4:"href";s:45:"https://marsprivet.com/blog/tags/zeronightsx/";}i:1;a:3:{s:8:"visible?";b:1;s:4:"name";s:12:"работа";s:4:"href";s:40:"https://marsprivet.com/blog/tags/rabota/";}i:2;a:3:{s:8:"visible?";b:1;s:4:"name";s:35:"🧨прикольная штука";s:4:"href";s:51:"https://marsprivet.com/blog/tags/prikolnaya-shtuka/";}}s:20:"all-resnames-uploads";a:0:{}}}

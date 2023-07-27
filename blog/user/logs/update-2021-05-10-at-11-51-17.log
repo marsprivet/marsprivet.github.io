@@ -1,0 +1,167 @@
+O 0.00254    Backup before update {
+O 0.00356      DB [1]: SET NAMES utf8mb4
+O 0.00375      Backup: wrote header
+O 0.00379      Backup: table e2BlogActions
+O 0.00448      Backup: wrote table definition with result 1
+O 0.00462      Backup: chunk size 50000
+O 0.00482      Backup: wrote table data with result 1
+O 0.00485      Backup: table e2BlogAliases
+O 0.00513      Backup: wrote table definition with result 1
+O 0.00524      Backup: chunk size 20000
+O 0.00544      Backup: wrote table data with result 1
+O 0.00547      Backup: table e2BlogComments
+O 0.00572      Backup: wrote table definition with result 1
+O 0.00579      Backup: chunk size 5000
+O 0.00582      Backup: wrote table data with result 1
+O 0.00584      Backup: table e2BlogGIPsSessions
+O 0.00631      Backup: wrote table definition with result 1
+O 0.00642      Backup: chunk size 5000
+O 0.00645      Backup: wrote table data with result 1
+O 0.00647      Backup: table e2BlogKeywords
+O 0.0067       Backup: wrote table definition with result 1
+O 0.0068       Backup: chunk size 5000
+O 0.00698      Backup: wrote table data with result 1
+O 0.00701      Backup: table e2BlogNotes
+O 0.00727      Backup: wrote table definition with result 1
+O 0.00738      Backup: chunk size 5000
+O 0.00778      Backup: wrote table data with result 1
+O 0.00782      Backup: table e2BlogNotesKeywords
+O 0.00803      Backup: wrote table definition with result 1
+O 0.00812      Backup: chunk size 5000
+O 0.00827      Backup: wrote table data with result 1
+O 0.0083       Backup: table e2BlogSources
+O 0.00873      Backup: wrote table definition with result 1
+O 0.00881      Backup: chunk size 5000
+O 0.00884      Backup: wrote table data with result 1
+O 0.00886      Backup: wrote data with running == 1
+O 0.00998    }
+O 0.01005    Update from v3788 to v3831 {
+O 0.01155      Caches: Drop all kinds of caches
+O 0.01563      Will run some query
+O 0.0157       DB [2]: SET sql_quote_show_create=1
+O 0.01594      Ensure encoding utf8mb4 on all tables {
+O 0.01597        Migrate: Check table Actions
+O 0.016          Will run some query
+O 0.01603        DB [3]: SHOW TABLE STATUS LIKE 'e2BlogActions'
+O 0.01633        Migrate: Check table Aliases
+O 0.01636        Will run some query
+O 0.01639        DB [4]: SHOW TABLE STATUS LIKE 'e2BlogAliases'
+O 0.01653        Migrate: Check table Comments
+O 0.01656        Will run some query
+O 0.01658        DB [5]: SHOW TABLE STATUS LIKE 'e2BlogComments'
+O 0.01671        Migrate: Check table GIPsSessions
+O 0.01673        Will run some query
+O 0.01675        DB [6]: SHOW TABLE STATUS LIKE 'e2BlogGIPsSessions'
+O 0.01689        Migrate: Check table Keywords
+O 0.01692        Will run some query
+O 0.01694        DB [7]: SHOW TABLE STATUS LIKE 'e2BlogKeywords'
+O 0.01706        Migrate: Check table Notes
+O 0.01708        Will run some query
+O 0.01711        DB [8]: SHOW TABLE STATUS LIKE 'e2BlogNotes'
+O 0.01722        Migrate: Check table NotesKeywords
+O 0.01725        Will run some query
+O 0.01727        DB [9]: SHOW TABLE STATUS LIKE 'e2BlogNotesKeywords'
+O 0.01738        Migrate: Check table Sources
+O 0.01742        Will run some query
+O 0.01744        DB [10]: SHOW TABLE STATUS LIKE 'e2BlogSources'
+O 0.01755        Migrate: Check table RoseContents
+O 0.01758        Will run some query
+O 0.0176         DB [11]: SHOW TABLE STATUS LIKE 'e2BlogRoseContents'
+O 0.01792        Migrate: Check table RoseWord
+O 0.01795        Will run some query
+O 0.01797        DB [12]: SHOW TABLE STATUS LIKE 'e2BlogRoseWord'
+O 0.01852        Migrate: Check table RoseFulltext
+O 0.01855        Will run some query
+O 0.01858        DB [13]: SHOW TABLE STATUS LIKE 'e2BlogRoseFulltext'
+O 0.0189         Migrate: Check table RoseKeyword
+O 0.01893        Will run some query
+O 0.01896        DB [14]: SHOW TABLE STATUS LIKE 'e2BlogRoseKeyword'
+O 0.01928        Migrate: Check table RoseKeywordMultiple
+O 0.0193         Will run some query
+O 0.01933        DB [15]: SHOW TABLE STATUS LIKE 'e2BlogRoseKeywordMultiple'
+O 0.01962      }
+O 0.01964      Get existing table information {
+O 0.01967        Will run some query
+O 0.01969        DB [16]: SHOW TABLES LIKE 'e2BlogActions'
+O 0.01981        Will run some query
+O 0.01984        DB [17]: SHOW CREATE TABLE `e2BlogActions`
+O 0.01991        Will run some query
+O 0.01994        DB [18]: SHOW INDEX FROM `e2BlogActions`
+O 0.02007        Will run some query
+O 0.0201         DB [19]: UPDATE `e2BlogActions` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+O 0.02023        Will run some query
+O 0.02025        DB [20]: SHOW TABLES LIKE 'e2BlogAliases'
+O 0.02037        Will run some query
+O 0.0204         DB [21]: SHOW CREATE TABLE `e2BlogAliases`
+O 0.02048        Will run some query
+O 0.0205         DB [22]: SHOW INDEX FROM `e2BlogAliases`
+O 0.02061        Will run some query
+O 0.02064        DB [23]: UPDATE `e2BlogAliases` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+O 0.02075        Will run some query
+O 0.02077        DB [24]: SHOW TABLES LIKE 'e2BlogComments'
+O 0.02088        Will run some query
+O 0.0209         DB [25]: SHOW CREATE TABLE `e2BlogComments`
+O 0.02098        Will run some query
+O 0.021          DB [26]: SHOW INDEX FROM `e2BlogComments`
+O 0.02111        Will run some query
+O 0.02113        DB [27]: UPDATE `e2BlogComments` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+O 0.02125        Will run some query
+O 0.02127        DB [28]: SHOW TABLES LIKE 'e2BlogGIPsSessions'
+O 0.02137        Will run some query
+O 0.02139        DB [29]: SHOW CREATE TABLE `e2BlogGIPsSessions`
+O 0.02146        Will run some query
+O 0.02148        DB [30]: SHOW INDEX FROM `e2BlogGIPsSessions`
+O 0.0216         Will run some query
+O 0.02164        DB [31]: UPDATE `e2BlogGIPsSessions` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+O 0.02226        Will run some query
+O 0.02229        DB [32]: SHOW TABLES LIKE 'e2BlogKeywords'
+O 0.02243        Will run some query
+O 0.02245        DB [33]: SHOW CREATE TABLE `e2BlogKeywords`
+O 0.02253        Will run some query
+O 0.02255        DB [34]: SHOW INDEX FROM `e2BlogKeywords`
+O 0.02266        Will run some query
+O 0.02269        DB [35]: UPDATE `e2BlogKeywords` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+O 0.02281        Will run some query
+O 0.02284        DB [36]: SHOW TABLES LIKE 'e2BlogNotes'
+O 0.02294        Will run some query
+O 0.02297        DB [37]: SHOW CREATE TABLE `e2BlogNotes`
+O 0.02305        Will run some query
+O 0.02308        DB [38]: SHOW INDEX FROM `e2BlogNotes`
+O 0.0232         Will run some query
+O 0.02323        DB [39]: UPDATE `e2BlogNotes` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+O 0.02335        Will run some query
+O 0.02337        DB [40]: SHOW TABLES LIKE 'e2BlogNotesKeywords'
+O 0.02347        Will run some query
+O 0.02352        DB [41]: SHOW CREATE TABLE `e2BlogNotesKeywords`
+O 0.02358        Will run some query
+O 0.0236         DB [42]: SHOW INDEX FROM `e2BlogNotesKeywords`
+O 0.0237         Will run some query
+O 0.02373        DB [43]: UPDATE `e2BlogNotesKeywords` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+O 0.02384        Will run some query
+O 0.02386        DB [44]: SHOW TABLES LIKE 'e2BlogSources'
+O 0.02396        Will run some query
+O 0.02398        DB [45]: SHOW CREATE TABLE `e2BlogSources`
+O 0.02405        Will run some query
+O 0.02409        DB [46]: SHOW INDEX FROM `e2BlogSources`
+O 0.02418        Will run some query
+O 0.02421        DB [47]: UPDATE `e2BlogSources` SET `SubsetID` = 1 WHERE `SubsetID` = 0
+O 0.02434      }
+O 0.02438      Will run some query
+O 0.02441      DB [48]: UPDATE `e2BlogAliases` SET `EntityType` = 'n' WHERE `EntityType` = ''
+O 0.02452      Will clean up “leaked” tag aliases
+O 0.02454      DB [49]: DELETE FROM `e2BlogAliases` WHERE `ID` IN (SELECT `ID` FROM (SELECT a.`ID` FROM `e2BlogAliases` a LEFT OUTER JOIN `e2BlogKeywords` e ON a.`EntityID` = e.`ID` WHERE a.`EntityType` = 't' AND e.`ID` IS NULL) AS temp)
+O 0.02487      Will run some query
+O 0.02489      DB [50]: UPDATE `e2BlogKeywords` SET `Summary` = '' WHERE `Summary` IS NULL
+O 0.02508      Will run some query
+O 0.0251       DB [51]: UPDATE `e2BlogKeywords` SET `Uploads` = '' WHERE `Uploads` IS NULL
+O 0.02527      Will run some query
+O 0.02529      DB [52]: ALTER TABLE `e2BlogNotes` CHANGE `FormatterID` `FormatterID` VARCHAR( 32 ) DEFAULT 'neasden' NOT NULL
+O 0.02678      Will run some query
+O 0.02681      DB [53]: UPDATE `e2BlogNotes` SET `Summary` = '' WHERE `Summary` IS NULL
+O 0.02695      Will run some query
+O 0.02697      DB [54]: UPDATE `e2BlogNotes` SET `Uploads` = '' WHERE `Uploads` IS NULL
+O 0.0271       Will run some query
+O 0.02713      DB [55]: UPDATE `e2BlogNotes` SET `SourceNoteData` = '' WHERE `SourceNoteData` IS NULL
+O 0.02725      Ensure indexes {
+O 0.0273       }
+O 0.02742    }
